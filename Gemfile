@@ -4,15 +4,15 @@ source 'https://rubygems.org'
 gem 'pg'
 
 # Sinatra driver
-gem 'sinatra', '~> 1.0'
+gem 'sinatra'
 gem 'sinatra-contrib'
 
-gem 'activesupport', '~>5.1.2'
-gem 'activerecord', '~>5.1.2'
+gem 'activesupport'
+gem 'activerecord'
 
 gem 'rake'
 
-gem 'shotgun', '~>0.9.1'
+gem 'shotgun'
 
 group :test do
   gem 'shoulda-matchers'
@@ -24,5 +24,5 @@ end
 group :test, :development do
   gem 'factory_girl'
   gem 'faker'
-  gem 'pry-byebug'
+ 
 end
