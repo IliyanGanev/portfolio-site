@@ -36,7 +36,6 @@ configure do
 
   # Set the views to
   set :views, File.join(Sinatra::Application.root, "app", "views")
-  config.force_ssl = true
 end
 
 # Set up the controllers and helpers
