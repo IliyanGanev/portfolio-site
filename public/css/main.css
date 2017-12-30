@@ -2642,7 +2642,8 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			/*background-color: #21b2a6;*/
+			background: rgba(144, 144, 144, 0.20);
 			color: #c7ebe8;
 		}
 
@@ -2800,7 +2801,7 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: rgba(0, 0, 0, 0.125);
 			color: #d3d4e4;
 		}
 
