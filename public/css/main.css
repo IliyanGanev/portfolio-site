@@ -2643,7 +2643,8 @@
 
 		.wrapper.style1 {
 			/*background-color: #21b2a6;*/
-			background: rgba(144, 144, 144, 0.20);
+			/*background: rgba(144, 144, 144, 0.20);*/
+			background-color: rgba(0, 0, 0, 0.125);
 			color: #c7ebe8;
 		}
 
@@ -3829,4 +3830,14 @@ textarea{
 	margin-bottom: 1em;
 }
 
+#two {
+background-color: rgba(0, 0, 0, 0.125);"
+}
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url("/images/BankGothic Regular.ttf");
+
+}
 
