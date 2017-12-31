@@ -2239,7 +2239,7 @@
 		color: #fff;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.8em;
+		font-size: 0.7em;
 		font-weight: 600;
 		height: 3.125em;
 		letter-spacing: 0.225em;
@@ -2311,6 +2311,7 @@
 			background-color: #ed4933;
 			box-shadow: none !important;
 			color: #ffffff !important;
+
 
 		}
 
@@ -3161,18 +3162,19 @@
 		-moz-transition: -moz-transform 0.5s ease;
 		-webkit-transition: -webkit-transform 0.5s ease;
 		-ms-transition: -ms-transform 0.5s ease;
-		transition: transform 0.5s ease;
+		transition: transform 0.7s ease;
 		-webkit-overflow-scrolling: touch;
-		background: grey;
-		color: #ffffff;
+		background: black;
+		opacity:1;
+		color: white;
 		height: 100%;
 		max-width: 80%;
 		overflow-y: auto;
-		padding: 3em 2em;
+		padding: 5em 2em;
 		position: fixed;
 		right: 0;
 		top: 0;
-		width: 20em;
+		width: 14em;
 		z-index: 10002;
 	}
 
@@ -3182,9 +3184,9 @@
 		}
 
 			#menu ul > li {
-				border-top: solid 1px rgba(0, 0, 0, 0.125);
+				border-top: solid 1px grey;
 				margin: 0.5em 0 0 0;
-				padding: 0.5em 0 0 0;
+				padding: 0.7em 0 0 0;
 			}
 
 				#menu ul > li:first-child {
@@ -3197,12 +3199,18 @@
 					border: 0;
 					color: inherit;
 					display: block;
-					font-size: 0.8em;
+					font-size: 0.7em;
 					letter-spacing: 0.225em;
 					outline: 0;
 					text-decoration: none;
 					text-transform: uppercase;
+			
 				}
+
+					#menu ul > li > a:hover {
+						color: #00caf5;
+
+					}
 
 					@media screen and (max-width: 736px) {
 
@@ -3400,6 +3408,7 @@
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+
 	}
 
 		#banner h2 {
@@ -3412,7 +3421,7 @@
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			display: inline-block;
-			font-size: 1.75em;
+			font-size: 1.55em;
 			opacity: 1;
 			padding: 0.35em 1em;
 			position: relative;
