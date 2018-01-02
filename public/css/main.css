@@ -2320,7 +2320,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #eb341c !important;
+				background-color: grey !important;
 			}
 
 			input[type="submit"].special:active,
