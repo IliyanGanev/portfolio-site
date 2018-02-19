@@ -16,13 +16,13 @@
 	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 </head>
 <body class="landing">
-
+	<%= erb :_three %>
 	<!-- Page Wrapper -->
 	<div id="page-wrapper">
 
 		<!-- Header -->
 		<header id="header" class="alt">
-			<h1><a href="/">Iliyan Ganev</a></h1>
+			<h1><a href="/">home</a></h1>
 			<nav id="nav">
 				<ul>
 					<li class="special">
@@ -82,7 +82,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="content">
+					<div class="content" style="z-index:1;">
 						<h2>Weather-SMS<br />
 						</h2>
 						<p>Fully responsive forecast application that utilizes Twilio and WU APIs, enabling users(registered with valid US phone number) to check weather using text messaging.The forecasts available to all users are: 5 day, 10 day, hourly 5 day and hourly 10 day. In addition forecast history can be traced back up to 60 years for some cities.</p>
@@ -101,7 +101,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="content">
+					<div class="content" style="z-index:1;">
 						<h2>tictactile.net<br />
 						</h2>
 						<p>Architect's portfolio site.</p>
@@ -121,7 +121,7 @@
 						</div>
 					</div>
 
-					<div class="content">
+					<div class="content" style="z-index:1;">
 						<h2>BlokeBlog<br />
 						</h2>
 						<p>Professional grade sample app featuring advanced security login and authentication framework. Registered users can create posts, upload pictures and follow other peoples activity.</p>
@@ -138,7 +138,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="content">
+					<div class="content" style="z-index:1;">
 						<h2>Crab-movies<br /></h2>
 						<p>Client team project providing data about the top 250 movies. Users can rate and review movies and actors. Data obtained from IMDB.</p>
 						<a style="background-color: grey;" href="http://crabmovies.herokuapp.com/" class="button special">Live</a>
@@ -153,7 +153,7 @@
 						<iframe src="untitled" width="100%" height="400px" scrolling="no" >
 							<p>Your browser does not support iframes.</p>
 						</iframe>
-					</div><div class="content">
+					</div><div class="content" style="z-index:1;">
 						<h2>Biohazard molecule<br />
 						</h2>
 						<p>It is a simple experiment with three.js 3D geometry.</p>
@@ -165,7 +165,7 @@
 
 
 
-				<section class="spotlight"sss>	
+				<section class="spotlight">	
 					<div class="image"><img src="images/habit.png" alt="" style= "width: 100%;cursor:zoom-in" onclick="document.getElementById('modal01').style.display='block'"/>
 						<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
 							<span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
@@ -174,7 +174,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="content">
+					<div class="content" style="z-index:1;">
 						<h2>Daily Habits<br />
 						</h2>
 						<p>Journaling application that allows users to log daily activity via texting. Provides meaningful data on users daily habits. Built in five days with a team of five.</p>
@@ -192,16 +192,16 @@
 					<header class="major">
 						<h2>About<br />
 						</h2>
-						<p>At the moment I am concentrating on Front End Development. During my Devbootcamp experience the focus was mainly on Back End. That provided a solid (data)base knowledge to build on.</p>
+						<p>Full-Stack Web Development and Computer Graphics. </p>
 					</header>
 					<ul class="features">
 						<li class="icon fa-code">
 							<h3>Tech stack</h3>
-							<p>Ruby, Rails, JavaScript, ES6, React, Redux, Vue.js, AngularJS, Sinatra, jQuery, HTML5 / CSS3, SASS, Active Record, SQLite, PostgreSQL, RSpec, Jasmine, Capybara, TDD, Git, Agile, Scrum, Bootstrap, Heroku.</p>
+							<p>Ruby, Rails, JavaScript, ES6, React, Redux, Vue.js, AngularJS, Sinatra, jQuery, HTML5 / CSS3, SASS, Active Record, SQLite, PostgreSQL, RSpec, Jasmine, Capybara, TDD, Git, Agile, Scrum, Bootstrap, Heroku...</p>
 						</li>
 						<li class="icon fa-paper-plane-o">
 							<h3>Exposure</h3>
-							<p>three.js, PHP, React Native, Selenium, AWS.</p>
+							<p>three.js, MongoDB, Express.js, Node.js, PHP, React Native, Selenium, AWS...</p>
 						</li>
 						<li class="icon fa-laptop">
 							<h3>Software</h3>
@@ -229,18 +229,18 @@
 					</ul>
 				</div>
 			</section> -->
-			<section id="contact">
+			<section id="contact" >
 				<section  id="cta" class="wrapper style4">
 					<div class="inner">
 						<!-- Contact -->
-						<section class="main style3 secondary">
+						<section class="main style3 secondary" style="z-index:1;">
 							<div class="content">
 								<header style="width: 100%;
 								text-align: center;">
 								<h2>Say Hello.</h2>
 								<p>Shoot me an email. I will be happy to share ideas or have some tea/coffee and talk.</p>
 							</header>
-							<div class="box">
+							<div class="box" >
 								<form method="post" action="mailto:ganeviliyan@gmail.com">
 									<div class="field half first"><input type="text" name="name" placeholder="Name" /></div>
 									<div class="field half"><input type="email" name="email" placeholder="Email" /></div>
