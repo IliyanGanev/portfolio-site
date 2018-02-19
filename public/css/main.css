@@ -2308,9 +2308,12 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #ed4933;
+			
 			box-shadow: none !important;
 			color: #ffffff !important;
+
+			border: 1px solid #00caf5;
+;
 
 
 		}
@@ -2320,7 +2323,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: grey !important;
+				background-color: #00caf5 !important;
 			}
 
 			input[type="submit"].special:active,
@@ -3208,7 +3211,7 @@
 				}
 
 					#menu ul > li > a:hover {
-						color: #ed4933;
+						color: #00caf5;
 
 					}
 
